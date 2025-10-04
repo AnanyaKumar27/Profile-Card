@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile Card</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px 40px;
+            width: 320px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            background-color: #b0b8ba;
+            border-radius: 20px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile-image img {
+            width: 120px;
+            height: 120px;
+            opacity: 0.6;
+        }
+        h2 {
+            font-weight: 700;
+            margin: 0 0 10px 0;
+        }
+        p {
+            color: #454f5b;
+            font-size: 16px;
+            margin: 0 0 25px 0;
+            line-height: 1.4;
+        }
+        .btn {
+            background-color: #0d66d0;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            padding: 12px 0;
+            font-size: 16px;
+            margin: 8px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #074ea2;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="profile-image">
+            <img src="https://i.pinimg.com/1200x/5f/22/5d/5f225da646bebe8fe1fe3413401761fc.jpg" alt="Profile Icon" />
+        </div>
+        <h2>Ananya Kumar</h2>
+        <p>Frontend Developer,Bookworm and traveler just trying to make life a little more fun ✨</p>
+        <button class="btn">Contact</button>
+        <button class="btn">Portfolio</button>
+    </div>
+</body>
+</html>
